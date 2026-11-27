@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highway Check</title>
+</head>
+<main>
+    <h1>Highway Check</h1>
+
+    <label for="highway">Select Highway:</label>
+    <select id="highway">
+        <option value="Highway 97">Highway 97</option>
+        <option value="Highway 5">Highway 5</option>
+        <option value="Highway 1">Highway 1</option>
+        <option value="Highway 3">Highway 3</option>
+    </select>S
+
+    <label for="type-filter">Select Type:</label>
+    <select id="type-filter">
+        <option value="">All</option>
+        <option value="CONSTRUCTION">Construction</option>
+        <option value="ROAD_CONDITION">Road Condition</option>
+        <option value="INCIDENT">Incident</option>
+    </select>
+
+    <p id="status" aria-live="polite"></p>
+    <ul id="events"></ul>
+</main>
+
+<script type="module" src="js/main.js"></script>
+
+</html> 
