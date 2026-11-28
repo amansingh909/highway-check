@@ -35,7 +35,7 @@ ul{
         transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#events >:hover *{
+#events > *:hover {
         transform: translateY(-4px);
         box-shadow: var(--card-hover-shadow);
 }
